@@ -1,6 +1,6 @@
 ## Local weather App
 
-Link: https://fehlerquelle.github.io/local-weather/
+<a href="https://fehlerquelle.github.io/local-weather/index.html">View Page</a>
 
 
 ### User Stories
