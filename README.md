@@ -1,4 +1,4 @@
-# Local weather App
+## Local weather App
 
 Link: https://fehlerquelle.github.io/local-weather/
 
