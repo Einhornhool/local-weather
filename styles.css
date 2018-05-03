@@ -5,7 +5,9 @@
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1512048569188-554e3efc621a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=895230cfe105a6bce18fb18b19a101b6&auto=format&fit=crop&w=4650&q=80");
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .unit {
@@ -36,4 +38,3 @@ body {
   font-variant:small-caps;
   font-size: 1.5em;
 }
-
