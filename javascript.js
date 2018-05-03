@@ -6,6 +6,8 @@ if (navigator.geolocation){
 }
 
 $(document).ready(function() {
+  var weather =
+
   $.getJSON("https://fcc-weather-api.glitch.me/", function(json) {
     $(".message").html(JSON.stringify(json));
   });
