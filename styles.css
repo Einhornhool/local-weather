@@ -1,0 +1,39 @@
+* {
+  font-family: Trebuchet, sans-serif;
+  font-size: 1.1em;
+  color: white;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1512048569188-554e3efc621a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=895230cfe105a6bce18fb18b19a101b6&auto=format&fit=crop&w=4650&q=80");
+}
+
+.unit {
+  margin: 50px 0;
+}
+
+.btn {
+  background-color: rgba(255,255,255,0);
+  border-color: white;
+}
+
+.btn:focus {
+  box-shadow: none;
+  background-color: rgba(255,255,255,1);
+  color: black;
+}
+
+.temp {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.minMax {
+  margin-bottom: 0px;
+}
+
+.weather {
+  font-variant:small-caps;
+  font-size: 1.5em;
+}
+
