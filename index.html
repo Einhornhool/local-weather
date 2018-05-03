@@ -8,13 +8,21 @@
   </head>
 
   <body>
-    <div id="data">
-      You are here:
+    <div class="container-fluid">
+    <div class="row justify-content-center unit">
+      <div class="btn-group" role="group" aria-label="Basic-example">
+        <button type="button" class="btn" id="fahr">°F</button>
+        <button type="button" class="btn" id="cels">°C</button>
+      </div>
     </div>
+  </div>
 
-    <div class="message">
-      Message
-    </div>  
+  <div class="container-fluid text-center">
+    <div class="loc" id="currentLocation"></div>
+    <div class="temp" id="currentTemp"></div>
+    <div class="minMax" id="minMax"></div>
+    <div class="weather" id="currentWeather"></div>
+  </div>
 
     <script type="text/javascript" src="javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
