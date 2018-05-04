@@ -10,18 +10,25 @@ function displayTemp(fTemp, c){
 };
 
 function bgImage(wd) {
-  if (wd.weather.id <= 232) {
+  var wID = wd.weather[0].id;
+  if (wID <= 232) {
     $('body').css('background-image', 'url("images/thunderstorm.jpg")');
-  } else if (wd.weather.id >= 300 && wd.weather.id <= 531) {
+    $('.signature').html('Photo by<br> Shashank Sahay<br> on Unsplash')
+  } if (wID >= 300 && wID <= 531) {
     $('body').css('background-image', 'url("images/rainy.jpg")');
-  } else if (wd.weather.id >= 600 && wd.weather.id <= 622) {
+    $('.signature').html('Photo by<br> Gabriele Diwald<br> on Unsplash')
+  } if (wID >= 600 && wID <= 622) {
     $('body').css('background-image', 'url("images/snowy.jpg")');
-  } else if (wd.weather.id >= 701 && wd.weather.id <= 781) {
+    $('.signature').html('Photo by<br> Nathan Fertig<br> on Unsplash')
+  } if (wID >= 701 && wID <= 781) {
     $('body').css('background-image', 'url("images/foggy.jpg")');
-  } else if (wd.weather.id = 800) {
+    $('.signature').html('Photo by<br> Frances Gunn<br> on Unsplash')
+  } if (wID == 800) {
     $('body').css('background-image', 'url("images/sunny.jpg")');
-  } else if (wd.weather.id >= 801 && wd.weather.id <= 804) {
-    $('body').css('background-image', 'url("images/cloudy.jpg")')
+    $('.signature').html('Photo by<br> Craig Strahorn<br> on Unsplash')
+  } if (wID >= 801 && wID <= 804) {
+    $('body').css('background-image', 'url("images/cloudy.jpg")');
+    $('.signature').html('Photo by<br> Vidar Nordli-Mathisen<br> on Unsplash')
   };
 };
 
